@@ -5,6 +5,7 @@ const inputs = document.querySelectorAll(".form__input")
         parent.classList.add("focus")
     }
     function remfocus(){
+        
         let parent = this.parentNode.parentNode
         if(this.value == ""){
             parent.classList.remove("focus")
