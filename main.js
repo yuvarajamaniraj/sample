@@ -4,7 +4,7 @@ const inputs = document.querySelectorAll(".form__input")
         let parent = this.parentNode.parentNode
         parent.classList.add("focus")
     }
-    function remfocus(){
+    function remfocus(){asdasdasd
         
         let parent = this.parentNode.parentNode
         if(this.value == ""){
